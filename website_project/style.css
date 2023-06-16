@@ -1,0 +1,279 @@
+/* This is your CSS file. You will use this file to style your HTML pages */
+
+body {
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* logo */
+#logo {
+    width: 100%;
+}
+.center_logo {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* line below nav bar */
+#line {
+    width: 90%; 
+    margin: 45px auto 0 auto;
+    border: 1px solid black;
+}
+
+/* navigation bar */
+a  {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    padding: 7px;
+    background-color: none;
+}
+a:hover {
+    background-color:rgb(240, 240, 240);
+}
+.nav_bar{
+    text-align: center;
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+#nav_bar {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+/* headings */
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 50px;
+}
+#reghiretitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cit {
+    margin-left: -600px;
+}
+#faqt {
+    margin-left: -550px;
+}
+
+/* bold text */
+#bold_text {
+    font-weight: bold;
+}
+
+/* text */
+p,ul,span {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 40px;
+}
+#about_us {
+    padding-right: 60px;
+    margin-top: -10px;
+}
+#mid_text {
+    margin-left: 35px;
+}
+
+/* contact us page */
+/* adress less space */
+#address {
+    margin-top: -10px;
+}
+/* other locations & adresses */
+#location {
+    margin-left: 20px;
+    margin-top: -6px;
+}
+#other_address {
+    margin-top: 2px;
+    margin-left: -20px;
+}
+
+/* images */
+.center_image {
+    width: 100%;
+    padding: 5px;
+}
+.center_image img {
+    width: 33%;
+}
+/* facebook & insta logo link*/
+#fb_insta {
+    padding-left: 15px;
+    padding-top: 18px;
+    background-color: #ffffff;
+}
+
+/* video & maps */
+iframe {
+    float: right;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+/* contacts info, makara peak & FAQ div */
+#con_inf {
+    width: 99%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+#leftcont {
+    width: 50%;
+    float: left;
+}
+#rightcont {
+    width: 50%;
+    float: right;
+}
+#makara_peak {
+    margin-right: 620px;
+    margin-top: -10px;
+}
+#right_faq {
+    margin-left: 70px;
+}
+#registration_form p, #hire_form p {
+    font-size: small;
+}
+#hire_form {
+    margin-left: 100px;
+}
+#hire_submit {
+    margin-left: -36px;
+}
+span {
+    font-size: small;
+    margin-left: -36px;
+}
+/* makara website link */
+#makara_website {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: -20px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: none;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* faq */
+#question {
+    font-weight: bold;
+}
+#answer {
+    margin-top: -10px;
+}
+
+/* question form */
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+#question_form {
+    margin-left: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#question_form input, textarea, button {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+button {
+    margin-top: 10px;
+}
+textarea,input[type=text],input[type=password],input[type=email],input[type=number] {
+    background-color: rgb(240, 240, 240);
+    border-style: inset;
+    border-width: none;
+}
+#question_submit {
+    margin-left: -35px;
+    font-size: small;
+}
+
+/* registration form */
+#registration_form {
+    margin-left: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input, button {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+} 
+#registration_submit {
+    margin-left: -35px;
+    font-size: small;
+}
+
+/* hire tab on product page*/
+#hire {
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+    background-color: none;
+}
+#hire:hover {
+    background-color: rgb(211, 209, 213);
+}
+
+/* table & products */
+td {
+    width: 33.3%;
+    /* border: solid black 2px; */
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+}
+table {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#product_description {
+    margin-left: -30px;
+    margin-right: 15px;
+}
+/* centering product images */
+#product_image {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0;
+    padding-top: 0px;
+    width: 300px;
+}
+.one {
+    margin-top: 35px;
+}
+.two {
+    margin-top: -25px;
+}
+.three {
+    margin-top: -55px;
+}
+.four {
+    margin-top: -90px;
+}
+.five {
+    margin-top: 37px;
+}
+.six {
+    margin-top: -5px;
+}

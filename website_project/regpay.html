@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html><!-- Do NOT put any content outside of the HTML tags-->
+	<head>
+		<title></title>
+		<link rel= "stylesheet" type="text/css" href="style.css">
+		<script src="myscripts.js"></script>
+	</head>
+	
+    <!-- All content visible on the webpage will be inside the body tags below-->
+	<body> 
+		<div id="logo">
+			<img class="center_logo" src="images/logo.jpg" alt="logo">
+		</div>
+
+		<br>
+		<!-- navigation bar -->
+		<ul id="nav_bar">
+			<li class="nav_bar"><a href="index.html">HOME</a></li>
+			<li class="nav_bar"><a href="products.html">PRODUCTS</a></li>
+			<li class="nav_bar"><a href="faq.html">FAQ</a></li>
+			<li class="nav_bar"><a href="contact.html">CONTACT US</a></li>
+		</ul>
+		
+		<br>
+		<!-- line below nav bar -->
+		<div id="line"></div>
+		<br>
+		<br>
+
+		<div id="con_inf">
+			<div id="leftcont">
+				<!-- rego form- name, email, number, password-->
+				<form id="registration_form" name="rform">
+					<h2 id="reghiretitle">REGISTER</h2>
+					<h3>Name</h3>
+					<input type="text" name="firstandlastname"><br>
+					<h3>Email</h3>
+					<input type="email" name="email"><br>
+					<h3>Phone Number</h3>
+					<input type="number" name="number"><br>
+					<h3>Password</h3>
+					<input type="password" name="password"><br>
+
+					<button type="button" onclick="regof()">Register</button>
+					<p id="registration_submit"></p>
+				</form>
+			</div>
+			<div id="rightcont">
+				<!-- hire form- select product(s), period of hire, pickup location -->
+				<form id="hire_form" name="hform">
+					<h2 id="reghiretitle">HIRE</h2>
+					<h3>Email</h3>
+					<input type="email" name="email"><br>
+					<h3>Password</h3>
+					<input type="password" name="password"><br>
+					<h3>What would you like to hire?</h3>
+					<select id="dropdown" name="type" id="type"><br>
+						<option value="select_typ">Select Type</option>
+						<option value="mountain_bike">Mountain Bike</option>
+						<option value="electric_bike">Electric Bike</option>
+						<option value="road_bike">Road Bike</option>
+						<option value="offroad_scooter">Off-Road Scooter</option>
+						<option value="electric_scooter">Electric Scooter</option>
+						<option value="monster_scooter">Monster Scooter</option>
+					</select>
+					<h3>Half-day/Full-Day</h3>
+					<select id="dropdown" name="day" id="day">
+						<option value="select_day">Select</option>
+						<option value="half">Half-Day</option>
+						<option value="full">Full-Day</option>
+					</select>
+					<h3>Please select a date:</h3>
+					<input type="date" name="datefield"><br>
+					<h3>Please select a pickup location:</h3>
+					<select id="dropdown" name="pickup" id="pickup"><br>
+						<option value="select_loc">Select Location</option>
+						<option value="makara">Ma&#773;kara Peak Mountain Bike Park</option>
+						<option value="harbour">Wellington Harbour Front</option>
+						<option value="hutt">Hutt River Valley</option>
+					</select>
+					<br>
+					<button type="button" onclick="hiref()">Confirm</button>
+					<p id="hire_submit"></p>
+					<span id="payment_desc1"></span>
+					<span id="payment1"></span>
+					<br>
+					<span id="payment_desc2"></span>
+					<span id="payment2"></span>
+				</form>
+			</div>
+			
+
+		</div>
+
+
+
+
+
+
+
+
+	</body>
+</html> 
